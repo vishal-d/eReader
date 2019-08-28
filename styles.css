@@ -1,0 +1,22 @@
+.night{
+    background:black;
+    color:white;
+}
+.chapter-thumbail{
+	margin-top: 10px;
+	overflow: hidden;
+	max-height: 150px;
+	height: 150px;
+	border-radius: 10px;
+	white-space: pre;
+}
+#mainViewer{
+	margin-top: 10px;
+	white-space: pre;
+}
+.button-nail{
+	margin-top: 10px;
+}
+.js-go-night{
+	margin-left: 30px;
+}
