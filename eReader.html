@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>eReader</title>
+	<script
+	 src="https://code.jquery.com/jquery-3.4.0.js"
+	 integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+	 crossorigin="anonymous"></script>
+	<link rel="stylesheet"
+		  type="text/css"
+		  href="css/bootstrap.css"
+	      /> 
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+</head>
+<body>
+	<div class="container">
+		<div class="row button-nail">
+			<div class="col-md-12">
+				<button class="btn btn-default js-go-day">DAY MODE</button>
+				<button class="btn btn-default js-go-night">NIGHT MODE</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3"> 	
+				<ul id="chapterlist" class="list-group scrollable">
+					
+					<li id="chapter0" class="list-group-item chapter-thumbail">Hamlet
+By William Shakespeare
+					</li>
+
+					<li id="chapter1" class="list-group-item chapter-thumbail">All The Bright Places
+By Jennifer Niven	
+					</li>
+
+					<li id="chapter2" class="list-group-item chapter-thumbail">Goblet of Fire
+By J.K. Rowling	
+					</li>
+
+					<li id="chapter3" class="list-group-item chapter-thumbail">Dance of the Dragon
+By Kashvi Bansal	
+					</li>
+
+					<li id="chapter4" class="list-group-item chapter-thumbail">Life's Alright
+By Akansha
+					</li>
+
+					<li id="chapter5" class="list-group-item chapter-thumbail">Mountains
+By Vishal Dhanjani
+					</li>
+				</ul>
+
+			</div>
+			<div class="col-md-9">
+				<div class="well" id="mainViewer">                  	
+				</div>			
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
