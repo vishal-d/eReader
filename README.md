@@ -1,2 +1,2 @@
 # eReader
-An eReader web application using Java script and HTML
+An eReader web application using jQuery
